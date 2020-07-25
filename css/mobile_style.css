@@ -74,10 +74,10 @@
       /*
       * Oh yeah and the last one should go the other direction
       */ }
-      body #menuToggle input:checked ~ spanchecked ~ span:nth-last-child(3) {
+      body #menuToggle input:checked ~ span:nth-last-child(3) {
         opacity: 0;
         transform: rotate(0deg) scale(0.2, 0.2); }
-      body #menuToggle input:checked ~ span:checked ~ span:nth-last-child(2) {
+      body #menuToggle input:checked ~ span:nth-last-child(2) {
         transform: rotate(-45deg) translate(0, -1px); }
     body #menu {
       position: absolute;
@@ -203,10 +203,10 @@
       /*
       * Oh yeah and the last one should go the other direction
       */ }
-      body #menuToggle input:checked ~ spanchecked ~ span:nth-last-child(3) {
+      body #menuToggle input:checked ~ span:nth-last-child(3) {
         opacity: 0;
         transform: rotate(0deg) scale(0.2, 0.2); }
-      body #menuToggle input:checked ~ span:checked ~ span:nth-last-child(2) {
+      body #menuToggle input:checked ~ span:nth-last-child(2) {
         transform: rotate(-45deg) translate(0, -1px); }
     body #menu {
       position: absolute;
@@ -332,10 +332,10 @@
       /*
       * Oh yeah and the last one should go the other direction
       */ }
-      body #menuToggle input:checked ~ spanchecked ~ span:nth-last-child(3) {
+      body #menuToggle input:checked ~ span:nth-last-child(3) {
         opacity: 0;
         transform: rotate(0deg) scale(0.2, 0.2); }
-      body #menuToggle input:checked ~ span:checked ~ span:nth-last-child(2) {
+      body #menuToggle input:checked ~ span:nth-last-child(2) {
         transform: rotate(-45deg) translate(0, -1px); }
     body #menu {
       position: absolute;
