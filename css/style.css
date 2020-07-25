@@ -1,1 +1,213 @@
+body {
+  padding-left: 30px;
+  padding-right: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: lightgray;
+  color: #500000; }
 
+.nameLink {
+  text-decoration: none; }
+
+.topnav {
+  overflow: hidden;
+  background-color: #708090;
+  width: fit-content;
+  width: fit-content;
+  margin: 1em auto;
+  border-radius: 12px;
+  font-weight: bolder;
+  animation: nav-load 700ms ease-in; }
+
+.topnav a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 30px 25px;
+  text-decoration: none;
+  font-size: 17px; }
+  .topnav a:hover {
+    background-color: black;
+    color: white; }
+  .topnav a.active {
+    background-color: #708090;
+    color: #500000;
+    text-decoration: underline; }
+
+nav li {
+  animation: nav-load 700ms ease-in;
+  animation-delay: 700ms;
+  animation-fill-mode: forwards;
+  transform: scale(0); }
+  nav li:first-child {
+    animation-name: nav-first-link-load;
+    transform: translateX(-10000%); }
+
+.upper {
+  text-transform: uppercase; }
+
+.nonwhite {
+  color: #500000;
+  font-size: 150%; }
+
+.josh {
+  letter-spacing: .25em;
+  word-spacing: .5em;
+  color: #500000;
+  text-indent: 1000px;
+  font-family: Lucida Console;
+  text-align: left; }
+
+.baird {
+  letter-spacing: .25em;
+  word-spacing: .5em;
+  color: #708090;
+  font-family: Arial Black;
+  font-weight: bold;
+  text-align: center; }
+
+.portfolio {
+  letter-spacing: .25em;
+  word-spacing: .5em;
+  color: #500000;
+  text-transform: lowercase;
+  font-family: Bradley Hand;
+  font-weight: bold;
+  text-align: center; }
+
+h1 {
+  text-align: center;
+  min-width: 100%;
+  animation: nav-load 700ms ease-in; }
+
+h2 {
+  font-family: Marker Felt;
+  letter-spacing: .07em;
+  text-align: center;
+  animation: load-everything 900ms ease-in; }
+
+h3 {
+  font-family: Marker Felt;
+  letter-spacing: .07em;
+  text-align: center;
+  animation: load-everything 900ms ease-in; }
+
+.welcome {
+  font-size: 200%;
+  text-align: center;
+  text-decoration: none;
+  padding-left: 45px;
+  animation: colorchange 3s infinite alternate; }
+
+.statement {
+  text-align: left;
+  text-decoration: none;
+  font-size: 200%;
+  font-family: none;
+  padding-left: 50px;
+  text-decoration: none; }
+
+img {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 330px;
+  max-height: 410px;
+  border-radius: 50px;
+  animation: load-everything 900ms ease-in; }
+
+.picture {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+i {
+  padding-right: 17px; }
+
+.statePic {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  margin-top: 17px; }
+
+p {
+  font-size: 150%;
+  animation: load-everything 900ms ease-in; }
+
+.hobbies2 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 15px;
+  list-style: none;
+  animation: load-everything 900ms ease-in; }
+
+#menu {
+  list-style: none;
+  padding: 0px; }
+
+input {
+  display: none; }
+
+hr {
+  animation: load-everything 900ms ease-in;
+  width: 100%;
+  height: 12px;
+  border-width: 0;
+  background-color: white; }
+
+#myBTN {
+  visibility: hidden; }
+
+.traits {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-row-gap: 30px;
+  padding-top: 15px;
+  padding-bottom: 30px;
+  text-align: center;
+  font-size: 150%;
+  animation: load-everything 900ms ease-in; }
+
+@keyframes colorchange {
+  0% {
+    color: #500000; }
+  20% {
+    color: #500000; }
+  40% {
+    color: #708090; }
+  0% {
+    color: #708090; }
+  80% {
+    color: #708090; }
+  100% {
+    color: #500000; } }
+@keyframes nav-load {
+  0% {
+    transform: translateY(-1000%); }
+  100% {
+    transform: translateY(0); } }
+@keyframes nav-link-load {
+  0% {
+    transform: scale(0); }
+  90% {
+    transform: scale(1.3); }
+  100% {
+    transform: scale(1); } }
+@keyframes nav-first-link-load {
+  0% {
+    transform: translateX(-1000%); }
+  90% {
+    transform: translateX(50%); }
+  100% {
+    transform: translateX(0); } }
+@keyframes heading-load {
+  0% {
+    transform: translateY(-1000%); }
+  100% {
+    transform: translateY(0); } }
+@keyframes load-everything {
+  0% {
+    transform: translateY(1000%); }
+  100% {
+    transform: translateY(0); } }
+
+/*# sourceMappingURL=style.css.map */
