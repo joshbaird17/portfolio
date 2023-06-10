@@ -130,12 +130,16 @@ i {
 content ul {
   padding-right: 40px;
   font-size: 125%;
-  animation: load-everything 900ms ease-in; }
+  animation: load-everything 900ms ease-in;
+  list-style-type:disc; 
+  color:#500000; }
 
 content li {
   padding-right: 40px;
   font-size: 125%;
-  animation: load-everything 900ms ease-in; }
+  animation: load-everything 900ms ease-in;
+  list-style-type:disc; 
+  color:#500000; }
 
 p {
   font-size: 150%;
