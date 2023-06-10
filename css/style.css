@@ -128,12 +128,12 @@ i {
   margin-top: 17px; }
 
 content ul {
-  padding: 0px 55px 0px 30px;
+  padding: 0px 55px 0px 40px;
   font-size: 125%;
   animation: load-everything 900ms ease-in; }
 
 content li {
-  padding: 0px 55px 0px 30px;
+  padding: 0px 55px 0px 40px;
   font-size: 125%;
   animation: load-everything 900ms ease-in; }
 
