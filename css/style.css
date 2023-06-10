@@ -127,13 +127,6 @@ i {
   grid-template-columns: 50% 50%;
   margin-top: 17px; }
 
-content ul {
-  list-style-type:disc;
-  animation: load-everything 900ms ease-in; }
-
-content li {
-  animation: load-everything 900ms ease-in; }
-
 p {
   font-size: 150%;
   animation: load-everything 900ms ease-in; }
