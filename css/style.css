@@ -132,6 +132,11 @@ ul {
   font-size: 150%;
   animation: load-everything 900ms ease-in; }
 
+li {
+  list-style-type:disc;
+  font-size: 150%;
+  animation: load-everything 900ms ease-in; }
+
 p {
   font-size: 150%;
   animation: load-everything 900ms ease-in; }
