@@ -128,13 +128,13 @@ i {
   margin-top: 17px; }
 
 content ul {
-  padding: 0px 40px 0px 0px;
+  padding: 0px 80px 0px 0px;
   font-size: 125%;
   list-style-type:disc;
   animation: load-everything 900ms ease-in; }
 
 content li {
-  padding: 0px 40px 0px 0px;
+  padding: 0px 80px 0px 0px;
   font-size: 125%;
   animation: load-everything 900ms ease-in; }
 
