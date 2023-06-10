@@ -386,10 +386,10 @@
     justify-content: space-around; }
  
   content ul{ 
-    padding: 0px 55px 0px 30px;}
+    padding-right: 55px;}
   
   content li{ 
-    padding: 0px 55px 0px 30px;}
+    padding-right: 55px;}
 }
 
 /*# sourceMappingURL=mobile_style.css.map */
