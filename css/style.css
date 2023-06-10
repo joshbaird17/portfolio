@@ -128,10 +128,12 @@ i {
   margin-top: 17px; }
 
 content ul {
+  font-size: 150%;
   list-style-type:disc;
   animation: load-everything 900ms ease-in; }
 
 content li {
+  font-size: 150%;
   animation: load-everything 900ms ease-in; }
 
 p {
