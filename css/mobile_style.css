@@ -380,6 +380,9 @@
       background-color: #500000;
       color: lightgray; }
 
+  content ui{
+    padding: 10px 0; }
+  
   .traits {
     display: flex;
     flex-direction: column;
