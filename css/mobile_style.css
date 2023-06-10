@@ -385,6 +385,9 @@
     flex-direction: column;
     justify-content: space-around; }
  
+  content ul{ 
+    padding: 0px 55px 0px 0px;}
+  
   content li{ 
     padding: 0px 55px 0px 0px;}
 }
